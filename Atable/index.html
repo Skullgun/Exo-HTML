@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
-    <head>
-        <title>Tableau</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8/">
+    <link rel="stylesheet" href="style.css" />
+    <title>A Table</title>
+</head>
 
-    <table>
-        <caption>The table header</caption>
-
-        <tr>
-            <th>En tête</th>
-        </tr>
-
-        <tr>
-            <td>Premier</td>
-            <td>Deuxième</td>
-            <td colspan="2">3</td>
-        </tr>
-
-        <tr>
-            <td colspan="2">1</td>
-            <td>Deuxième</td>
-            <td>troisième</td>
-        </tr>
-
-        <tr>
-            <td colspan="4">ni classe, ni id</td>
-        </tr>
-
-        <tr>
-            <td colspan="4">^^</td>
-        </tr>
-    </table>
+<body>
+    <div>
+        <h1>Tableau HTML</h1>
+        <table>
+            <tr>
+                <th colspan="4">Entête</th>
+            </tr>
+            <tr style="background-color: lightgray">
+                <td>1</td>
+                <td>2</td>
+                <td colspan="2">3</td>
+            </tr>
+            <tr style="background-color: grey">
+                <td colspan="2">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <footer>
+            <P>Ni class, ni ID</p>
+        </footer>
+        <h4>^^</h4>
+    </div>
+</body>
 
 </html>
