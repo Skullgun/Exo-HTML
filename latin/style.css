@@ -1,0 +1,57 @@
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+nav ul
+{
+	list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+	margin-right: 25px;
+}
+
+h1
+{
+    font-family: 'Courgette', cursive;
+}
+
+h2
+{
+    text-align: center;
+}
+
+hr
+{
+    margin-bottom: 30px;
+}
+
+section
+{
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+#un
+{
+    display: flex;
+    justify-content: center;
+}
+
+#text-un
+{
+    text-align: justify;
+    width: 50%;
+}
+
+#poussin-un
+{
+
+}
