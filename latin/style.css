@@ -39,6 +39,7 @@ section
     margin-top: 10px;
 }
 
+/* ----- 1ER SECTION ----- */
 #un
 {
     display: flex;
@@ -53,5 +54,42 @@ section
 
 #poussin-un
 {
+    margin-top: 20px;
+}
 
+/* ----- 2EME SECTION ----- */
+#deux
+{
+    display: flex;
+    justify-content: center;
+}
+
+#text-deux
+{
+    text-align: justify;
+    width:  50%;
+}
+
+#poussin-deux
+{
+    margin-top: 20px;
+}
+
+
+/* ----- 3EME SECTION ------ */
+#trois
+{
+    display: flex;
+    justify-content: center;
+}
+
+#text-trois
+{
+    text-align: justify;
+    width: 50%;
+}
+
+#pic-trois
+{
+    float: left;
 }
