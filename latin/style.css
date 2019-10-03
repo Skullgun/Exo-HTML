@@ -93,3 +93,11 @@ section
 {
     float: left;
 }
+
+
+/* ----- PRINT ----- */
+@media print {
+    section {
+        page-break-after: always;
+    }
+}
