@@ -1,0 +1,73 @@
+/* ---- SYNCHRO ----- */
+
+/* ----- CONTENEUR ----- */
+#container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+/* ----- FEU 1 ----- */
+#feu
+{
+    width: 250px;
+    height: 450px;
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rouge
+{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(242, 69, 37, 0.5);
+    margin-left: 65px;
+}
+
+.jaune
+{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(254, 193, 50, 0.5);
+    margin-left: 65px;
+}
+
+.vert
+{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(94, 208, 147, 0.5);
+    margin-left: 65px;
+}
+
+.rouge:hover
+{
+    background-color: #F24525; 
+}
+
+.jaune:hover
+{
+    background-color: rgb(254, 193, 50);
+}
+
+.vert:hover
+{
+   background-color: rgb(94, 208, 147);
+}
+
+/* ----- FEU 2 ----- */
+#feu-deux
+{
+width: 250px;
+height: 450px;
+background-color: #404040;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
