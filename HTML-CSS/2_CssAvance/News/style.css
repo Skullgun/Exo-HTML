@@ -1,5 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
 *
 {
     padding: 0;
     margin: 0;
 }
+
+@keyframes marger
+{
+    form{margin: 0px}
+    to{margin: 15px;}
+}
+
+body
+{
+    background-color: black;
+}
+
+img
+{
+    position: relative;
+    height: 150%;
+    width: 150%;
+    transition: left 1s, top 1s;
+    left: 0;
+    top: 0;
+}
+
+img:hover
+{
+    left: 30%;
+    top: 20%;
+}
+
+.text
+{
+    font-family: 'Baloo Bhai', cursive;
+    height: auto;
+    padding: 9px;
+    text-align: center;
+    background-color: black;
+    opacity: 0;
+    align-self: flex-end;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+}
+
+.flex-container
+{
+    display: flex;
+    height: auto;
+    margin: auto;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.flex-item
+{
+    display: flex;
+    border: 3px black solid;
+    height: 250px;
+    overflow:hidden;
+    transition: background-position 1s;
+    animation : marger 2s forwards;
+}
+.flex-item:hover .text
+{
+    opacity: 0.3;
+}
+.flex-item:hover
+{
+   background-position: 60%;
+}
+.flex-item:nth-child(1)
+{
+    width: 300px;
+    background-image: url('images/plage1.png');
+}
+.flex-item:nth-child(2)
+{
+    width: 350px;
+    background-image: url('images/plage2.png');
+}
+.flex-item:nth-child(3)
+{
+    width: 450px;
+    background-image: url('images/plage3.png');
+}
+.flex-item:nth-child(4)
+{
+    width: 270px;
+    background-image: url('images/plage4.png');
+}
+.flex-item:nth-child(5)
+{
+    width: 500px;
+    background-image: url('images/plage5.png');
+}
+.flex-item:nth-child(6)
+{
+    width: 350px;
+    background-image: url('images/plage6.png');
+}
+.flex-item:nth-child(7)
+{
+    width: 325px;
+    background-image: url('images/plage7.png');
+}
+.flex-item:nth-child(8)
+{
+    width: 250px;
+    background-image: url('images/plage8.png');
+}
+.flex-item:nth-child(9)
+{
+    width: 340px;
+    background-image: url('images/plage9.png');
+}
+.flex-item:nth-child(10)
+{
+    width: 400px;
+    background-image: url('images/plage10.png');
+}
+
+
